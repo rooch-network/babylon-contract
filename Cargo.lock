@@ -2601,6 +2601,26 @@ dependencies = [
 ]
 
 [[package]]
+name = "rooch-finality-gadget"
+version = "0.11.0"
+dependencies = [
+ "anybuf",
+ "babylon-apis",
+ "babylon-merkle",
+ "cosmwasm-schema",
+ "cosmwasm-std",
+ "cosmwasm-vm",
+ "cw-controllers",
+ "cw-storage-plus",
+ "cw-utils",
+ "eots",
+ "hex",
+ "k256",
+ "test-utils",
+ "thiserror",
+]
+
+[[package]]
 name = "rust_decimal"
 version = "1.36.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"

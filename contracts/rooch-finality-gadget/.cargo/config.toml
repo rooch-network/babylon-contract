@@ -1,0 +1,2 @@
+[alias]
+schema = "run --bin rooch-finality-gadget-schema"
